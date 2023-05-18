@@ -1,0 +1,438 @@
+<html class="bg-black" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brandon Kenter's Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+
+  <body class="min-h-screen bg-slate-900 to-transparent font-mono">
+    <main class="lg:ml-96 lg:mr-96">
+      <div
+        class="loader triangle z-50t absolute flex items-center justify-center"
+        style="top: 50%; left: 50%; transform: translate(-100%, -50%)"
+      >
+        <svg viewBox="0 0 86 80">
+          <polygon points="43 8 79 72 7 72"></polygon>
+        </svg>
+      </div>
+      <div
+        class="slide-top flex min-h-screen flex-col items-center justify-evenly lg:flex-row lg:items-start lg:justify-around"
+      >
+        <div
+          class="top-48 mb-20 ml-4 mr-4 mt-52 flex flex-col justify-center rounded-xl border-2 border-blue-600 bg-opacity-50 bg-gradient-to-b from-slate-900 to-transparent text-center sm:w-80 md:w-96 lg:sticky lg:mt-64 lg:w-96"
+        >
+          <div
+            class="fade-in relative mb-20 flex select-none items-center justify-center transition duration-300 hover:scale-105"
+          >
+            <img
+              class="absolute -top-64 left-2 rotate-45 scale-75 rounded-full fill-black"
+              src="img/triangles2.png"
+              alt=""
+              style="
+                filter: invert(1%) sepia(1%) saturate(1211%) hue-rotate(13deg)
+                  opacity(40%);
+              "
+            />
+            <img
+              class="absolute -top-48 m-2 h-56 w-40 rounded-3xl border-2 border-blue-600 bg-slate-900 object-cover brightness-90"
+              src="img/headshot-transparent.png"
+              alt=""
+            />
+          </div>
+
+          <div class="fade-in select-none">
+            <h2 class="text-5xl font-bold text-gray-50">Brandon</h2>
+            <h2 class="text-5xl font-bold text-gray-50">Kenter</h2>
+          </div>
+
+          <div class="flex flex-col items-center">
+            <div
+              class="mt-8 select-none items-center text-sm sm:mt-56 lg:text-base"
+            >
+              <span class="button-slide-left">
+                <a href="https://twitter.com/brakenter" target="_blank">
+                  <i
+                    class="fa-brands fa-twitter m-1 inline-block cursor-pointer rounded-md border-2 border-blue-600 p-3 text-blue-600 transition duration-200 ease-in-out hover:scale-110 hover:bg-blue-800 hover:bg-opacity-50 hover:text-blue-400"
+                  ></i>
+                </a>
+              </span>
+              <span class="button-slide-top">
+                <a
+                  href="https://www.linkedin.com/in/brandonkenter/"
+                  target="_blank"
+                >
+                  <i
+                    class="fa-brands fa-linkedin-in m-1 inline-block cursor-pointer rounded-md border-2 border-blue-600 p-3 text-blue-600 transition duration-200 ease-in-out hover:scale-110 hover:bg-blue-800 hover:bg-opacity-50 hover:text-blue-400"
+                  ></i>
+                </a>
+              </span>
+              <span class="button-slide-right">
+                <a href="https://github.com/BrandonKenter" target="_blank">
+                  <i
+                    class="fa-brands fa-github m-1 inline-block cursor-pointer rounded-md border-2 border-blue-600 p-3 text-blue-600 transition duration-200 ease-in-out hover:scale-110 hover:bg-blue-800 hover:bg-opacity-50 hover:text-blue-400"
+                  ></i>
+                </a>
+              </span>
+            </div>
+            <a
+              href="https://docs.google.com/document/d/1523QEvLVhLoSIRVMQPBWJjlGzrIcFleZtb0FYyp2SEA/export?format=pdf"
+              draggable="false"
+              download
+            >
+              <button
+                class="button-slide-bottom m-1 mt-4 mb-10 ml-12 mr-12 inline-block w-48 cursor-pointer select-none rounded-md border-2 border-blue-600 p-3 font-bold text-blue-600 transition duration-200 ease-in-out hover:scale-105 hover:bg-blue-800 hover:bg-opacity-50 hover:text-blue-400"
+              >
+                <i class="fa-solid fa-download"></i>
+                <span class="pl-1">Download Resume</span>
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <section
+          class="mx-4 mt-20 mb-20 w-80 rounded-xl md:w-96 lg:mt-64 lg:min-w-fit"
+        >
+          <header class="flex-col items-center justify-center">
+            <div
+              class="mt-5 w-auto rounded-lg border-2 border-blue-600 bg-slate-900 bg-opacity-40 text-base font-bold text-gray-50 lg:mb-0 lg:mt-0 lg:text-lg"
+            >
+              <nav>
+                <ul
+                  class="fade-in tabs m-1 flex select-none justify-center md:text-base"
+                >
+                  <li
+                    class="tab is-active fade-in-about group m-1 cursor-pointer rounded-xl bg-blue-300 bg-opacity-10 transition duration-300 ease-in-out hover:text-blue-500 lg:m-4 lg:w-24"
+                  >
+                    <a
+                      class="decoration:1 lg-p3 block h-full w-full p-2 text-center"
+                      data-switcher
+                      data-tab="1"
+                      >About
+                      <span
+                        class="block h-0.5 max-w-0 bg-blue-500 transition-all duration-500 group-hover:max-w-full"
+                      ></span>
+                    </a>
+                  </li>
+                  <li
+                    class="tab fade-in-projects group m-1 cursor-pointer rounded-xl transition duration-300 ease-in-out hover:text-blue-500 lg:m-4 lg:w-24"
+                  >
+                    <a
+                      class="decoration:1 lg-p3 block h-full w-full p-2 text-center"
+                      data-switcher
+                      data-tab="2"
+                      >Projects
+                      <span
+                        class="block h-0.5 max-w-0 bg-blue-500 transition-all duration-500 group-hover:max-w-full"
+                      ></span>
+                    </a>
+                  </li>
+                  <li
+                    class="tab fade-in-contact group m-1 cursor-pointer rounded-xl transition duration-300 ease-in-out hover:text-blue-500 lg:m-4 lg:w-24"
+                  >
+                    <a
+                      class="decoration:1 lg-p3 block h-full w-full p-2 text-center"
+                      data-switcher
+                      data-tab="4"
+                      >Contact
+                      <span
+                        class="block h-0.5 max-w-0 bg-blue-500 transition-all duration-500 group-hover:max-w-full"
+                      ></span
+                    ></a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+
+          <section class="pages mt-5 max-w-2xl">
+            <div
+              class="page is-active rounded-xl border-2 border-blue-600 bg-slate-900 bg-opacity-50 p-6 lg:p-16"
+              data-page="1"
+            >
+              <div class="z-auto bg-orange-600 lg:mx-20 lg:w-96"></div>
+              <div
+                class="about-me about-me-fade-in align-center flex flex-col justify-center"
+              >
+                <div class="flex flex-col items-center justify-center lg:mb-11">
+                  <h2 class="p-3 text-2xl font-bold text-gray-50 lg:text-4xl">
+                    About Me
+                  </h2>
+                  <hr
+                    class="ml-1 mt-1 mb-6 h-1 w-56 rounded border-0 bg-gradient-to-r from-blue-600 to-blue-800 lg:mt-1 lg:ml-3 lg:w-96"
+                  />
+                </div>
+                <div
+                  class="rounded-md border-2 border-blue-600 bg-slate-900 bg-opacity-30 p-4"
+                >
+                  <p class="p-3 text-sm text-gray-100 lg:text-base">
+                    Hello! My name is Brandon Kenter and I am a software
+                    engineer living in Madison, Wisconsin. I graduated from the
+                    University of Wisconsin-Madison in 2022 with a bachelor's
+                    degree in computer science.
+                  </p>
+                  <p class="p-3 text-sm text-gray-100 lg:text-base">
+                    Since graduating, I have been working on leveling up my
+                    skills and working on projects. Recently I have been working
+                    on my flagship project, BluThumb.io. BluThumb.io is a
+                    learning tool for people studying technical interview
+                    questions by using features that facilitate learning with
+                    spaced repetition. It features a list of 300 high-value
+                    LeetCode problems, curated by me, after solving over 1000
+                    problems. To learn more about BluThumb.io or my other
+                    projects, please go to the Projects tab.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="page hidden rounded-xl border-2 border-blue-700 bg-slate-900 bg-opacity-50 p-6 lg:p-16"
+              data-page="2"
+            >
+              <div class="z-auto mr-20 ml-20 bg-orange-600 lg:w-96"></div>
+              <div class="align-center flex flex-col justify-center">
+                <div class="flex flex-col items-center justify-center lg:mb-11">
+                  <h2 class="p-3 text-2xl font-bold text-gray-50 lg:text-4xl">
+                    My Projects
+                  </h2>
+                  <hr
+                    class="ml-1 mt-1 mb-6 h-1 w-56 rounded border-0 bg-gradient-to-r from-blue-600 to-blue-800 lg:mt-1 lg:ml-3 lg:w-96"
+                  />
+                </div>
+                <div class="text-center">
+                  <div
+                    class="mt-4 mb-10 rounded-3xl border-2 border-blue-600 bg-slate-900 pb-11 lg:p-6"
+                  >
+                    <p class="mt-6 text-2xl font-bold text-gray-50">
+                      BluThumb.io
+                    </p>
+                    <div
+                      class="mt-4 flex h-40 scale-75 items-center justify-evenly rounded-xl bg-gradient-to-tr from-slate-900 to-blue-800 shadow-md shadow-black transition duration-300 hover:-translate-y-1 sm:scale-90 md:h-56 md:scale-95 lg:h-64 lg:scale-100"
+                    >
+                      <div
+                        class="flex flex-col items-center justify-center lg:ml-5"
+                      >
+                        <a
+                          href="https://github.com/BrandonKenter/bluthumb.io"
+                          target="_blank"
+                        >
+                          <i
+                            class="fab fa-github m-1 inline-block h-10 w-10 cursor-pointer rounded-md border-2 border-blue-600 bg-slate-900 p-2 text-xl text-blue-600 transition duration-200 ease-in-out hover:scale-105 hover:bg-blue-800 hover:bg-opacity-50 hover:text-blue-400"
+                          ></i>
+                        </a>
+                        <a href="https://bluthumb.io" target="_blank">
+                          <i
+                            class="fa-solid fa-link m-1 inline-block h-10 w-10 cursor-pointer rounded-md border-2 border-blue-600 bg-slate-900 p-2 text-xl text-blue-600 transition duration-200 ease-in-out hover:scale-105 hover:bg-blue-800 hover:bg-opacity-50 hover:text-blue-400"
+                          ></i>
+                        </a>
+                      </div>
+                      <img
+                        class="h-32 w-44 rounded-xl opacity-90 md:h-48 md:w-60 lg:h-full lg:w-full lg:scale-90"
+                        src="img/bluthumb-thumbnail.jpg"
+                      />
+                    </div>
+                    <div class="mt-8 mb-5">
+                      <span class="text-sm text-gray-400 lg:text-base"
+                        >JavaScript - React - Firebase - Tailwind CSS</span
+                      >
+                      <p class="mt-5 p-2 text-sm text-gray-100 lg:text-base">
+                        A website for tracking personal progress with technical
+                        interview questions. BluThumb.io is a platform that
+                        provides essential tools to facilitate learning with
+                        spaced repetition. BluThumb.io also features a problem
+                        list, BluThumb 300, which was curated by me after
+                        solving more than 1000 LeetCode problems.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="mt-4 mb-10 rounded-3xl border-2 border-blue-600 bg-slate-900 pb-11 lg:p-6"
+                  >
+                    <p class="mt-6 text-2xl font-bold text-gray-50">
+                      Heap Allocator
+                    </p>
+                    <div
+                      class="mt-4 flex h-40 scale-75 items-center justify-evenly rounded-xl bg-gradient-to-tr from-slate-900 to-blue-800 shadow-md shadow-black transition duration-300 hover:-translate-y-1 sm:scale-90 md:h-56 md:scale-95 lg:h-64 lg:scale-100"
+                    >
+                      <div
+                        class="flex flex-col items-center justify-center lg:ml-5"
+                      >
+                        <a
+                          href="https://github.com/BrandonKenter/Heap-Allocator"
+                          target="_blank"
+                        >
+                          <i
+                            class="fab fa-github m-1 inline-block h-10 w-10 cursor-pointer rounded-md border-2 border-blue-600 bg-slate-900 p-2 text-xl text-blue-600 transition duration-200 ease-in-out hover:scale-105 hover:bg-blue-800 hover:bg-opacity-50 hover:text-blue-400"
+                          ></i>
+                        </a>
+                        <a
+                          href="https://www.youtube.com/watch?v=i0wBru4_v_A&ab_channel=Brandon"
+                          target="_blank"
+                        >
+                          <i
+                            class="fa-brands fa-youtube m-1 inline-block h-10 w-10 cursor-pointer rounded-md border-2 border-blue-600 bg-slate-900 p-2 text-xl text-blue-600 transition duration-200 ease-in-out hover:scale-105 hover:bg-blue-800 hover:bg-opacity-50 hover:text-blue-400"
+                          ></i>
+                        </a>
+                      </div>
+                      <img
+                        class="h-32 w-44 rounded-xl opacity-90 md:h-48 md:w-60 lg:h-full lg:w-full lg:scale-90"
+                        src="img/heapalloc-thumbnail.png"
+                      />
+                    </div>
+                    <div class="mt-8 mb-5">
+                      <span class="text-sm text-gray-400 lg:text-base"
+                        >Java - JavaFX - Scene Builder</span
+                      >
+                      <p class="mt-5 p-2 text-sm text-gray-100 lg:text-base">
+                        A desktop application that visualizes dynamic memory
+                        allocation using the first-fit placement policy and
+                        immediate coalescing. This allocator supports arbitrary
+                        allocation and free requests.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="mt-4 mb-10 rounded-3xl border-2 border-blue-600 bg-slate-900 pb-11 lg:p-6"
+                  >
+                    <p class="mt-6 text-2xl font-bold text-gray-50">
+                      Paint Inventory
+                    </p>
+                    <div
+                      class="mt-4 flex h-40 scale-75 items-center justify-evenly rounded-xl bg-gradient-to-tr from-slate-900 to-blue-800 shadow-md shadow-black transition duration-300 hover:-translate-y-1 sm:scale-90 md:h-56 md:scale-95 lg:h-64 lg:scale-100"
+                    >
+                      <div
+                        class="flex flex-col items-center justify-center lg:ml-5"
+                      >
+                        <a
+                          href="https://github.com/BrandonKenter/Paint-Inventory"
+                          target="_blank"
+                        >
+                          <i
+                            class="fab fa-github m-1 inline-block h-10 w-10 cursor-pointer rounded-md border-2 border-blue-600 bg-slate-900 p-2 text-xl text-blue-600 transition duration-200 ease-in-out hover:scale-105 hover:bg-blue-800 hover:bg-opacity-50 hover:text-blue-400"
+                          ></i>
+                        </a>
+                      </div>
+                      <img
+                        class="h-32 w-44 rounded-xl opacity-90 md:h-48 md:w-60 lg:h-full lg:w-full lg:scale-90"
+                        src="img/paintinv-thumbnail.png"
+                      />
+                    </div>
+
+                    <div class="mt-8 mb-5">
+                      <span class="text-sm text-gray-400 lg:text-base"
+                        >Python - PyQt5 - SQLite</span
+                      >
+                      <p class="mt-5 p-2 text-sm text-gray-100 lg:text-base">
+                        A desktop application that allows for easy inventory
+                        management for companies that use paint products. The
+                        application focuses on features that provide concise
+                        information so users can find and update the current
+                        stock efficiently.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="mt-4 mb-10 rounded-3xl border-2 border-blue-600 bg-slate-900 pb-11 lg:p-6"
+                  >
+                    <p class="mt-6 text-2xl font-bold text-gray-50">
+                      House Flipper
+                    </p>
+                    <div
+                      class="mt-4 flex h-40 scale-75 items-center justify-evenly rounded-xl bg-gradient-to-tr from-slate-900 to-blue-800 shadow-md shadow-black transition duration-300 hover:-translate-y-1 sm:scale-90 md:h-56 md:scale-95 lg:h-64 lg:scale-100"
+                    >
+                      <div
+                        class="flex flex-col items-center justify-center lg:ml-5"
+                      >
+                        <a
+                          href="https://github.com/BrandonKenter/House-Flipper"
+                          target="_blank"
+                        >
+                          <i
+                            class="fab fa-github m-1 inline-block h-10 w-10 cursor-pointer rounded-md border-2 border-blue-600 bg-slate-900 p-2 text-xl text-blue-600 transition duration-200 ease-in-out hover:scale-105 hover:bg-blue-800 hover:bg-opacity-50 hover:text-blue-400"
+                          ></i>
+                        </a>
+                      </div>
+                      <img
+                        class="h-32 w-44 rounded-xl opacity-90 md:h-48 md:w-60 lg:h-full lg:w-full lg:scale-90"
+                        src="img/houseflipper-thumbnail.png"
+                      />
+                    </div>
+
+                    <div class="mt-8 mb-5">
+                      <span class="text-sm text-gray-400 lg:text-base"
+                        >Java - JavaFX - Scene Builder</span
+                      >
+                      <p class="mt-5 p-2 text-sm text-gray-100 lg:text-base">
+                        A desktop application that helps simulate the process of
+                        assessing a property's value and its potential
+                        profitability as a fix-and-flip, taking into account
+                        various factors such as property location and categories
+                        for types of property improvements.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="page hidden rounded-xl border-2 border-blue-600 bg-slate-900 bg-opacity-50 p-6 lg:p-16"
+              data-page="4"
+            >
+              <div class="z-auto mr-20 ml-20 bg-orange-600 lg:w-96"></div>
+              <div class="align-center flex flex-col justify-center">
+                <div class="flex flex-col items-center justify-center lg:mb-11">
+                  <h2 class="p-3 text-2xl font-bold text-gray-50 lg:text-4xl">
+                    Contact Me
+                  </h2>
+                  <hr
+                    class="ml-1 mt-1 mb-6 h-1 w-56 rounded border-0 bg-gradient-to-r from-blue-600 to-blue-800 lg:mt-1 lg:ml-3 lg:w-96"
+                  />
+                </div>
+
+                <div
+                  class="mx-auto flex max-w-sm flex-col rounded-md border-2 border-blue-600 bg-slate-900 bg-opacity-20 p-3 text-sm lg:text-base"
+                >
+                  <div class="mb-6 flex items-center">
+                    <i
+                      class="fa-solid fa-phone h-10 w-10 rounded-full bg-blue-800 p-3 text-gray-50"
+                    ></i>
+                    <div class="ml-3">
+                      <span class="text-gray-100">Phone:</span>
+                      <span class="ml-1 text-gray-300">608-797-6956</span>
+                    </div>
+                  </div>
+                  <div class="flex items-center">
+                    <i
+                      class="fa-solid fa-envelope h-10 w-10 rounded-full bg-blue-800 p-3 text-gray-50"
+                    ></i>
+                    <div class="ml-3">
+                      <span class="text-gray-100">Email:</span>
+                      <span
+                        class="whitespace-characters ml-1 break-all text-gray-300"
+                        >brandonkenter@outlook.com</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
